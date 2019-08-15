@@ -1,0 +1,159 @@
+<web-app>
+ <servlet>
+   <servlet-name>createfileservlet</servlet-name>
+   <servlet-class>servlets.CreateFile</servlet-class>
+ </servlet>
+
+ <servlet-mapping>
+   <servlet-name>createfileservlet</servlet-name>
+   <url-pattern>/createFile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>createfilenewservlet</servlet-name>
+   <servlet-class>Demo.CreateFile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>createfilenewservlet</servlet-name>
+   <url-pattern>/createFileNew</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>createdirectorynewservlet</servlet-name>
+   <servlet-class>Demo.CreateDirectoryNew</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>createdirectorynewservlet</servlet-name>
+   <url-pattern>/createDirectoryNew</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>deletefileservlet</servlet-name>
+   <servlet-class>Demo.DeleteFile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>deletefileservlet</servlet-name>
+   <url-pattern>/deletefile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>deletedirectoryservlet</servlet-name>
+   <servlet-class>Demo.DeleteDirectory</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>deletedirectoryservlet</servlet-name>
+   <url-pattern>/deletedirectory</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>accessfileservlet</servlet-name>
+   <servlet-class>Demo.AccessFile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>accessfileservlet</servlet-name>
+   <url-pattern>/accessfile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>savefileservlet</servlet-name>
+   <servlet-class>Demo.SaveFile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>savefileservlet</servlet-name>
+   <url-pattern>/savefile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>getdirnameservlet</servlet-name>
+   <servlet-class>Demo.Getdirname</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>getdirnameservlet</servlet-name>
+   <url-pattern>/getdirname</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>loginservlet</servlet-name>
+   <servlet-class>Demo.LoginServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>loginservlet</servlet-name>
+   <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>signupservlet</servlet-name>
+   <servlet-class>Demo.SignupServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>signupservlet</servlet-name>
+   <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>createUserIdDir</servlet-name>
+   <servlet-class>Demo.CreateUserIdDir</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>createUserIdDir</servlet-name>
+   <url-pattern>/createuseriddir</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>logoutservlet</servlet-name>
+   <servlet-class>Demo.LogoutServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>logoutservlet</servlet-name>
+   <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+   <servlet-name>sharefileservlet</servlet-name>
+   <servlet-class>Demo.ShareFile</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+   <servlet-name>sharefileservlet</servlet-name>
+   <url-pattern>/sharefile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>savefileajaxservlet</servlet-name>
+    <servlet-class>Demo.SaveFileAjax</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>savefileajaxservlet</servlet-name>
+    <url-pattern>/savefileajax</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>logofafileservlet</servlet-name>
+    <servlet-class>Demo.LogOfAFile</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logofafileservlet</servlet-name>
+    <url-pattern>/logofafile</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Ecreatefilenew</servlet-name>
+    <servlet-class>Edemo.CreateFileNew</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Ecreatefilenew</servlet-name>
+    <url-pattern>EcreateFileNew</url-pattern>
+  </servlet-mapping>
+</web-app>
